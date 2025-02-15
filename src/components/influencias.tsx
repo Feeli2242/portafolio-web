@@ -26,7 +26,7 @@ export default function Influencias() {
                         src: "https://res.cloudinary.com/duwncbe8p/image/upload/f_auto,q_auto/v1/portfolio/refs/frekkfshfybremfzgqym",
                     }}
                 />
-                <User
+                {/* <User
                     name='Miguel Durán García'
                     className='bg-white dark:bg-sky-600 rounded-xl px-1 py-2 shadow-sm'
                     description={
@@ -37,7 +37,7 @@ export default function Influencias() {
                     avatarProps={{
                         src: "https://res.cloudinary.com/duwncbe8p/image/upload/f_auto,q_auto/v1/portfolio/refs/xdxt3zuoxo86bqwbvjif",
                     }}
-                />
+                /> */}
                 <User
                     name='Luisina de Paula'
                     className='bg-white dark:bg-sky-600 rounded-xl px-1 py-2 shadow-sm'

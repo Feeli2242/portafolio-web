@@ -58,7 +58,7 @@ export const POST = async (req: NextRequest) => {
             ],
         })
         const keyRedis = `chats:${ip.includes("::1") ? "localhost" : ip}`
-        await saveChat(keyRedis, [...chats, openaiRes.choices[0].message])
+        // await saveChat(keyRedis, [...chats, openaiRes.choices[0].message])
         const toolCall = openaiRes.choices[0].message.tool_calls
         if (toolCall) {
             const [fn] = toolCall
